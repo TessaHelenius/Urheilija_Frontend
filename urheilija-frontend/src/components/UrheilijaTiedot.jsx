@@ -5,7 +5,7 @@ import UrheilijaContext from "../context/UrheilijaContext";
 const UrheilijaTiedot = () => {
   // Haetaan urheilijan id URL-parametreista
   const { id } = useParams();
-  // Navigointi-ominaisuus
+  // Navigointi "ominaisuus"
   const navigate = useNavigate();
   // Haetaan kontekstista tarvittavat funktiot ja data
   const { urheilija, haeUrheilija, poistaUrheilija } =

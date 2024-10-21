@@ -41,7 +41,8 @@ const LisaaUrheilija = () => {
   // Käsitellään lomakkeen lähetys
   const onSubmit = (e) => {
     e.preventDefault();
-    // Kutsutaan lisaaUrheilija-funktiota urheilija-tilalla
+    console.log(urheilija);
+    // Kutsutaan lisaaUrheilija-funktiota ja lähetetään lomakkeen tiedot
     lisaaUrheilija(urheilija);
     // Navigoidaan etusivulle
     navigate("/");

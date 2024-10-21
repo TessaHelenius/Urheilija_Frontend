@@ -46,6 +46,7 @@ const MuokkaaUrheilija = () => {
   // Käsitellään lomakkeen lähetys
   const onSubmit = (e) => {
     e.preventDefault();
+    console.log(muokattuUrheilija);
     paivitaUrheilija(id, muokattuUrheilija);
     navigate("/");
   };

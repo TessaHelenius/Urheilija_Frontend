@@ -22,7 +22,7 @@ export const UrheilijaProvider = ({ children }) => {
 
   // Hae kaikki urheilijat
   const haeUrheilijat = async () => {
-    const res = await axios.get("http://localhost:3000/urheilijat");
+    const res = await axios.get(`http://localhost:3000/urheilijat`);
     dispatch({ type: GET_URHEILIJAT, payload: res.data });
   };
 
@@ -34,7 +34,7 @@ export const UrheilijaProvider = ({ children }) => {
 
   // Lisää uusi urheilija
   const lisaaUrheilija = async (urheilija) => {
-    const res = await axios.post("http://localhost:3000/urheilijat", urheilija);
+    const res = await axios.post(`http://localhost:3000/urheilijat`, urheilija);
     dispatch({ type: ADD_URHEILIJA, payload: res.data });
   };
 
