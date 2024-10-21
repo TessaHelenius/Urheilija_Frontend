@@ -1,0 +1,70 @@
+/* Perusasetukset ja yleiset tyylit */
+
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #003580;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #003580; /* Linkit ovat sinisiä */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #002060; /* Linkit muuttuvat tummemmaksi hover-tilassa */
+}
+
+/* Perusrunko */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Valkoinen tausta */
+  color: #003580; /* Sininen teksti */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* Nappien oletustyylit */
+button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #002060; /* Hover-efekti tumman sininen */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #003580;
+  outline: none;
+}
+
+/* Bootstrapin elementit toimivat näiden tyylien kanssa */

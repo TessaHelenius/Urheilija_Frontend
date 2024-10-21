@@ -1,0 +1,105 @@
+
+.navbar {
+  background-color: #003580;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px; /
+}
+
+.navbar a:hover {
+  background-color: #002060;
+  border-radius: 5px;
+}
+
+
+body {
+  background-color: #ffffff;
+  color: #003580;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #003580;
+}
+
+button {
+  background-color: #003580;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #002060;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #003580;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f0f8ff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #003580;
+  outline: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #003580;
+}
+
+.card-text {
+  color: #003580;
+}
+
+.btn-danger {
+  background-color: #0f46dd;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #09069e;
+}
+
+.btn {
+  margin: 5px 0;
+}
